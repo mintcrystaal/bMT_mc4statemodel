@@ -3,9 +3,6 @@ import numpy as np
 from scipy.signal import find_peaks
 
 
-# считать наклон между каждыми 2 соседними. Если резко падает, то катастрофа. когда конец катастрофы? найти параметры для диффузии. см раздел quantification ...
-
-
 file = open("len_time_graph_1", "r")
 length, t = [], []
 for line in file:
